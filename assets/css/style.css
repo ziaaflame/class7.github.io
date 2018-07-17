@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+body {
+    color: #CCCCCC;
+    font-size: 15px;
+    line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    position: relative;
+    margin-bottom: 40px;
+}
+.section-title h2:after {
+    background: none repeat scroll 0 0 #3399FF;
+    border-radius: 50px;
+    bottom: -20px;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.owl-carousel .owl-item .single-staff-item img {
+    border-radius: 50%;
+    max-width: 160px;
+    width: 160px;
+}
+.staff-meta {
+    color: #9A9A9A;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.staff-meta h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.staff-list .owl-nav div {
+    background: none repeat scroll 0 0 #F3F3F3;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+.staff-list .owl-nav div:hover {
+    background: none repeat scroll 0 0 #14ADF3;
+    color: #FFFFFF;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+
+
+    
